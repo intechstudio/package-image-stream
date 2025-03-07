@@ -1,3 +1,3 @@
-# Spotify Package
+# Image Streaming Package
 
-This package is for controlling Spotify through their Web API with Grid modules.
+This package is for streaming in a static image to a VSN module.
