@@ -81,7 +81,7 @@ exports.sendMessage = async function (args) {
 
 let imageString;
 let latestScaleSize = undefined;
-const maxCharacterCount = 384;
+const maxCharacterCount = 280;
 async function scheduleAlbumCoverTransmit() {
   messageQue = [];
   queMessage(

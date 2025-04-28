@@ -67,12 +67,12 @@ jobs:
           node-version: 18  # Specify the desired Node.js version
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
         
       - name: Build components
         run: | 
           cd components
-          npm install
+          npm ci
           npm run build
 
       - name: Install archiver package
